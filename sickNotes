@@ -1,0 +1,15 @@
+
+
+sudo apt-get install ros-hydro-sicktoolbox-wrapper //actually installs
+//then we can do
+rosdep install sicktoolbox_wrapper //which is first step on wiki
+
+  /*pass for terminal:sqrl2018*/
+
+sudo apt-get install python-rosdep//because apparently our version of ros might not have had rosdep
+
+sudo apt-get update//
+
+
+IF ANY DEPENDENCY PROBS
+rosdep instal --from-paths
